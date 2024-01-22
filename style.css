@@ -1,0 +1,370 @@
+body{
+    background-color: #f1f1f1 !important;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #ffffff !important;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: sticky !important;
+    top: 0px;
+    z-index: 1;
+}
+.navbar:hover{
+    background-color: #928f8f !important;
+    color: white !important;
+}
+
+.navbar-nav a{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.nav-icon{
+    font-size: 19px;
+    align-self: center;
+    color: rgb(128, 126, 126);
+    color: inherit;
+}
+li > .li-icon{
+    padding: 0 6px;
+    cursor: pointer;
+}
+ul > li {
+    padding: 0 5px;
+}
+.nav-item > a:hover{
+    color: #ffffff !important;
+}
+.li1:hover, .li2:hover{
+    background-color: red;
+}
+.li3:hover{
+    background-color: rgb(255, 102, 0);
+}
+.li4:hover{
+    background-color: rgba(45, 212, 45, 0.781);
+}
+.li5:hover{
+    background-color: rgba(50, 190, 183, 0.922);
+}
+.li6:hover{
+    background-color: rgb(231, 158, 63);
+}
+.li7:hover{
+    background-color: rgba(255, 166, 0, 0.867);
+}
+.li8:hover{
+    background-color: darkgoldenrod;
+}
+.nav-item > a{
+    padding: 23px 12px !important;
+}
+.carousel-item > img{
+    width: 98% !important;
+    margin: 0 13px;
+} 
+@media (min-width: 994px) and (max-width: 1292px) {
+    .nav-item > a{
+        padding: 0px 0px !important;
+    }
+    .navbar{
+        display: inline-flex;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-item > img{
+        height: 300px;
+    }
+}
+.main > h2, .main2 > h2, .card4 > h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 650;
+}
+.card1{
+    width: 76% !important;
+    margin: 3% auto 5% !important;
+    border-radius: 10px !important;
+}
+.main .card-body{
+    padding: 36px 37px 15px;
+    height: 100%;
+}
+.card-text{
+    font-size: 18px !important;
+}
+.card2{
+    width: 85% !important;
+    margin: 3% auto !important;
+}
+.main2 .card-body{
+    padding: 37px 41px 15px;
+    height: 100%;
+}
+.icon-arrow{
+    margin-bottom: 15px;
+}
+.icon-arrow > p {
+    font-size: 19px;
+}
+@media (max-width: 535px) {
+    .main, .main2 > h2{
+        font-size: 25px !important;
+    }
+}
+.card3{
+    display: flex;
+    margin-top: 15%;
+}
+.box1, .box2{
+    border: 2px solid black;
+    height: 500px;
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+}
+.box1{
+    background-color: #ffffff;
+    /* margin: -60px 0; */
+    bottom: 50px;
+    position: relative;
+    left: 60px;
+}
+.box2, .box3{
+    width: 55%;
+}
+.box4{
+    position: relative ;
+    left: -90px;
+}
+.box9{
+    position: relative;
+    left: 0px;
+}
+.card4 > h2{
+    margin-top: 5%;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px ;
+}
+.img8{
+    /* position: relative; */
+    margin-left: 48px;
+}
+.card3 .card-body{
+    padding: 40px 41px;
+}
+.btn{
+    /* margin-top: 150px; */
+    width: 85%;
+    /* margin-left: -60px; */
+    border: 2px solid black !important;
+    border-radius: 40px !important;
+}
+.btn1{
+    /* margin-top: 70px; */
+}
+
+
+.box5{
+    width: 60% !important;
+    margin: 10px auto !important;
+}
+.img4{
+    padding: 23px;
+}
+.card{
+    background-color: #fafafa !important;
+    border-radius: 14px !important;
+    border: none !important;
+
+}
+.box5 .card:hover{
+    transform: scale(1.07);
+    transition: 1s;
+} 
+.btn2{
+    margin: 6% auto;
+    padding: 1%;
+    width: 46%;
+    background-color: transparent !important;
+}
+.btn2:hover{
+    color: #928f8f !important;
+    border: 2px solid #928f8f !important;
+}
+@media (max-width: 440px) {
+    .btn2{
+        padding: 4px;
+        width: 81%;
+        margin: 15px auto;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .img4{
+        width: 101px;
+        height: 114px;
+        background: repeating-linear-gradient(45deg, black, transparent 100px);
+    }
+    .box5 .card{ 
+        height: 107px;
+        width: 100px
+    }
+}
+
+footer{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.divfoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center !important;
+    height: 70px !important;
+}
+
+.box6, .box7 {
+    height: 100px;
+    margin: 0  auto;
+    width: 20%;
+}
+.loca-btn{
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px 0;
+} 
+.loca-btn > i{
+    font-size: 20px;
+    margin-right: 7px;
+}
+.box7 .btn {
+    margin-top: 0;
+    background-color: transparent;
+    border: 2px solid white !important;
+    border-radius: 13px;
+}
+
+@media (max-width: 770px) {
+    .img5{
+        height: 25px !important;
+    }
+    .loca-btn{
+        padding: 8px;
+        font-size: 10px;
+        margin: -15px
+    }
+    .divfoot{
+        margin-top: 30px;
+    }
+    nav.nav-img{
+        margin-left: 0px !important;
+    }
+}
+@media (max-width: 450px) {
+    .copy > p{
+        text-align: center !important;
+    }
+    .img3{
+        width: 361px;
+        height: 84%
+    }
+    .card3{
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+        height: 357px;
+        margin-top: 22px;
+        margin-left: -40px;
+    }
+    .card3 .card-body {
+        padding: 29px 23px;
+    }
+    .btn{
+        margin: 13px 0;
+        /* width: 96% */
+    }
+    .btn1{
+        font-size: 12px;
+        padding: 13px;
+    }
+    .box4{
+        width: 97%;
+        padding: 0;
+        margin: 0 108px;
+        height: 439px
+    }
+}
+
+hr{
+    width: 85%;
+    margin: auto !important;
+}
+
+.foot-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px !important;
+}
+
+span > i{
+    font-size: 22px;
+    margin: 0 5px;
+}
+h4{
+    color: #928f8f !important;
+    font-size: 11px !important;
+}
+.copy > p{
+    padding: 15px;
+    width: 80%;
+    text-align: right;
+}
+
+/* .nav-item{
+    width: 150px; 
+} */
+@media (max-width: 970px) {
+    .navbar-icons{
+        padding: 0px;
+        display: inline-flex;
+        flex-direction: row !important;
+        position: absolute;
+        top: 66px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 430px) {
+    .img3{
+       margin-top: -84px; 
+    }
+    .img8{
+        margin-top: 67px;
+        margin: auto;        
+    }
+    .box9{
+        margin: auto;
+
+    }
+    .box1{
+        margin-top: 50px;
+    }
+}
