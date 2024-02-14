@@ -122,9 +122,13 @@ ul > li {
         font-size: 25px !important;
     }
 }
+
+.margin{
+    margin-top: 7%;
+}
 .card3{
     display: flex;
-    margin-top: 15%;
+    /* position: relative; */
 }
 .box1, .box2{
     border: 2px solid black;
@@ -148,24 +152,24 @@ ul > li {
 }
 .box9{
     position: relative;
-    left: 0px;
+    left: -20px;
 }
 .card4 > h2{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     letter-spacing: 2px;
     font-size: 35px;
 }
 .img3{
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 60%;
     border-radius: 10px ;
 }
 .img8{
-    margin-left: 70px;
+    margin-left: 100px;
 }
 .card3 .card-body{
-    padding: 40px 41px;
-    height: 400px;
+    padding: 40px 22px;
+    /* height: 400px; */
 }
 .btn{
     width: 85%;
@@ -279,10 +283,11 @@ footer{
     }
     .img3{
         width: 361px;
-        height: 84%
+        object-fit: contain;
+        /* height: 84% */
     }
     .card3{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .box1{
         width: 100%;
@@ -291,12 +296,15 @@ footer{
         margin-left: -40px;
     }
     .card3 .card-body {
-        padding: 20px 23px;
-        height: 340px;
+        padding: 13px 23px;
+        /* height: 320px; */
         width: 340px;
     }
-    .btn{
-        margin: 13px 0;
+    #bt{
+        padding: 5px 0px !important;
+        width: 100% !important;
+        /* font-size: 100px; */
+        /* margin: 13px 0; */
         /* width: 96% */
     }
     .btn1{
